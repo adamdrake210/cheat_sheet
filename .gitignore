@@ -1,0 +1,39 @@
+# git ignore for a typical go project
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide binary
+glide
+
+# Output of go tool trace
+trace.out
+
+# Output of go tool pprof
+*.pprof
+
+# Output of `go tool cgo`
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+_cgo_main.go
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_vendor/
+
+
